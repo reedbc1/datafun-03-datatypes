@@ -58,6 +58,35 @@ def create_random_sentence():
 
     logger.info(f"Random sentence: {sentence}")
 
+# String Lists 3. Get Unique Words
+# Choose one of the text data files in the repo - or add another related your your domain.
+# Use open(), read(), split(), and set() to read a text file and get a list of unique words. 
+# Sort the list. 
+# Use len() to get the length display it to the console.
+
+def process_text():
+    """Read in text_hamlet.txt and process it"""
+    logger.info("Calling process_text()")
+
+    # read in hamlet to get a list of words
+    with open("text_hamlet.txt", "r") as fileObject:
+        text = fileObject.read()
+        list_words = text.split()  # split on whitespace
+        unique_words = sorted(set(list_words))  # remove duplicates by making a set. sorts set alphabetically.
+        
+        # Get the count and list of words
+        word_ct = len(list_words)
+
+        logger.info(f"There are {word_ct} words in the file.")
+
+        # Print the count and list of unique words
+        unique_word_ct = len(unique_words)
+
+        logger.info(f"There are {unique_word_ct} unique words in the file.")
+
+        # about unique words
+        logger.info('One issue with the list of unique values is that many of the "unique" values are near duplicates. For example, "indeed", "indeed,", and "indeed." are all included in the list. The list could be improved by first removing punctuation and then processing the list to remove duplicates.')
+
 # creates show_log() that will print the log to the console when called
 def show_log():
     """Read log file and print it to the terminal"""
@@ -71,6 +100,7 @@ if __name__ == "__main__":
     string_lists1()
     using_random_choice()
     create_random_sentence()
+    process_text()
 
     show_log()
 

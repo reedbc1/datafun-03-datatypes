@@ -1,21 +1,25 @@
-2023-09-17 17:17:19,686 =============================================================
-2023-09-17 17:17:19,687 =============================================================
-2023-09-17 17:17:19,687 Today is 2023-09-17 at 05:17 PM
-2023-09-17 17:17:19,714 This file is running on: nt Windows 10
-2023-09-17 17:17:19,714 The Python version is: 3.11.2
-2023-09-17 17:17:19,714 The active conda environment is:  None
-2023-09-17 17:17:19,714 The active pip environment is:    None
-2023-09-17 17:17:19,714 The active environment path is:   C:\Python311
-2023-09-17 17:17:19,715 The current working directory is: C:\Users\reedb\Documents\NW University\datafun-03-datatypes
-2023-09-17 17:17:19,715 This source file is in:           c:\Users\reedb\Documents\NW University\datafun-03-datatypes
-2023-09-17 17:17:19,715 =============================================================
-2023-09-17 17:17:19,715 =============================================================
-2023-09-17 17:17:19,715 Calling functions from main block
-2023-09-17 17:17:19,715 Calling string_lists1()
-2023-09-17 17:17:19,715 stock_dividends cobmined tuples: [('GOOG', 'no'), ('AAPL', 'yes'), ('FDX', 'yes'), ('MSFT', 'yes'), ('TSLA', 'no')]
-2023-09-17 17:17:19,715 stock_dividends length: 5
-2023-09-17 17:17:19,715 stock_dividends set: {('MSFT', 'yes'), ('TSLA', 'no'), ('GOOG', 'no'), ('AAPL', 'yes'), ('FDX', 'yes')}
-2023-09-17 17:17:19,715 Calling using_random_choice()
-2023-09-17 17:17:19,715 displaying random stock action from stock_action: short
-2023-09-17 17:17:19,715 Calling create_random_sentence()
-2023-09-17 17:17:19,716 Random sentence: You have decided to sell TSLA from NASDAQ.
+2023-09-17 17:53:23,309 =============================================================
+2023-09-17 17:53:23,310 =============================================================
+2023-09-17 17:53:23,310 Today is 2023-09-17 at 05:53 PM
+2023-09-17 17:53:23,359 This file is running on: nt Windows 10
+2023-09-17 17:53:23,359 The Python version is: 3.11.2
+2023-09-17 17:53:23,359 The active conda environment is:  None
+2023-09-17 17:53:23,360 The active pip environment is:    None
+2023-09-17 17:53:23,360 The active environment path is:   C:\Python311
+2023-09-17 17:53:23,360 The current working directory is: C:\Users\reedb\Documents\NW University\datafun-03-datatypes
+2023-09-17 17:53:23,360 This source file is in:           c:\Users\reedb\Documents\NW University\datafun-03-datatypes
+2023-09-17 17:53:23,361 =============================================================
+2023-09-17 17:53:23,361 =============================================================
+2023-09-17 17:53:23,361 Calling functions from main block
+2023-09-17 17:53:23,361 Calling string_lists1()
+2023-09-17 17:53:23,361 stock_dividends cobmined tuples: [('GOOG', 'no'), ('AAPL', 'yes'), ('FDX', 'yes'), ('MSFT', 'yes'), ('TSLA', 'no')]
+2023-09-17 17:53:23,362 stock_dividends length: 5
+2023-09-17 17:53:23,362 stock_dividends set: {('GOOG', 'no'), ('AAPL', 'yes'), ('MSFT', 'yes'), ('FDX', 'yes'), ('TSLA', 'no')}
+2023-09-17 17:53:23,362 Calling using_random_choice()
+2023-09-17 17:53:23,362 displaying random stock action from stock_action: sell
+2023-09-17 17:53:23,362 Calling create_random_sentence()
+2023-09-17 17:53:23,363 Random sentence: You have decided to sell TSLA from Chicago Stock Exchange.
+2023-09-17 17:53:23,363 Calling process_text()
+2023-09-17 17:53:23,385 There are 31999 words in the file.
+2023-09-17 17:53:23,385 There are 7714 unique words in the file.
+2023-09-17 17:53:23,386 One issue with the list of unique values is that many of the "unique" values are near duplicates. For example, "indeed", "indeed,", and "indeed." are all included in the list. The list could be improved by first removing punctuation and then processing the list to remove duplicates.
