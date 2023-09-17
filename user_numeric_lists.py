@@ -265,8 +265,9 @@ def show_log():
 # (as opposed to being imported by another module)
 # Literally: "if this module name == the name of the main module"
 if __name__ == "__main__":
-
     # call your functions here (see instructions)
+    logger.info("Calling functions from main block")
+    
     illustrate_list_statistics()
     illustrate_list_correlation_and_prediction()
     illustrate_list_built_in_functions()
