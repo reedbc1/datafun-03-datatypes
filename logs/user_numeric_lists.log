@@ -1,12 +1,43 @@
-2023-09-17 12:47:20,291 =============================================================
-2023-09-17 12:47:20,292 =============================================================
-2023-09-17 12:47:20,292 Today is 2023-09-17 at 12:47 PM
-2023-09-17 12:47:20,328 This file is running on: nt Windows 10
-2023-09-17 12:47:20,335 The Python version is: 3.11.2
-2023-09-17 12:47:20,335 The active conda environment is:  None
-2023-09-17 12:47:20,335 The active pip environment is:    None
-2023-09-17 12:47:20,335 The active environment path is:   C:\Python311
-2023-09-17 12:47:20,335 The current working directory is: C:\Users\reedb\Documents\NW University\datafun-03-datatypes
-2023-09-17 12:47:20,335 This source file is in:           c:\Users\reedb\Documents\NW University\datafun-03-datatypes
-2023-09-17 12:47:20,335 =============================================================
-2023-09-17 12:47:20,335 =============================================================
+2023-09-17 15:14:25,190 =============================================================
+2023-09-17 15:14:25,190 =============================================================
+2023-09-17 15:14:25,190 Today is 2023-09-17 at 03:14 PM
+2023-09-17 15:14:25,219 This file is running on: nt Windows 10
+2023-09-17 15:14:25,219 The Python version is: 3.11.2
+2023-09-17 15:14:25,219 The active conda environment is:  None
+2023-09-17 15:14:25,219 The active pip environment is:    None
+2023-09-17 15:14:25,219 The active environment path is:   C:\Python311
+2023-09-17 15:14:25,219 The current working directory is: C:\Users\reedb\Documents\NW University\datafun-03-datatypes
+2023-09-17 15:14:25,220 This source file is in:           c:\Users\reedb\Documents\NW University\datafun-03-datatypes
+2023-09-17 15:14:25,220 =============================================================
+2023-09-17 15:14:25,220 =============================================================
+2023-09-17 15:14:25,220 list1: [71, 10, 89, 92, 78, 16, 98, 87, 47, 26, 42, 58, 78, 51, 52, 10, 23, 69, 87, 35]
+2023-09-17 15:14:25,222 mean: 55.95
+2023-09-17 15:14:25,222 median: 55.0
+2023-09-17 15:14:25,222 mode: 10
+2023-09-17 15:14:25,222 stdev: 29.034416963683853
+2023-09-17 15:14:25,222 variance: 842.9973684210527
+2023-09-17 15:14:25,222 listx: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+2023-09-17 15:14:25,222 listy: [1050, 1251, 3713, 4902, 4601, 5045, 6798, 6295, 7845, 7993]
+2023-09-17 15:14:25,222 correlation between x and y: 0.9616878316826293
+2023-09-17 15:14:25,223 The equation of the best fit line is: y = 773.8606060606061x + 693.0666666666666
+2023-09-17 15:14:25,223 We predict that when x = {newx}, y will be about {newy}
+2023-09-17 15:14:25,223 Given score list: [71, 10, 89, 92, 78, 16, 98, 87, 47, 26, 42, 58, 78, 51, 52, 10, 23, 69, 87, 35]
+2023-09-17 15:14:25,223 The max() is 98
+2023-09-17 15:14:25,223 The min() is 10
+2023-09-17 15:14:25,223 The len() is 20
+2023-09-17 15:14:25,223 The sum() is 1119
+2023-09-17 15:14:25,223 The average is 55.95
+2023-09-17 15:14:25,223 Given score list: [71, 10, 89, 92, 78, 16, 98, 87, 47, 26, 42, 58, 78, 51, 52, 10, 23, 69, 87, 35]
+2023-09-17 15:14:25,223 Using the built-it function sorted(lst) gives: [10, 10, 16, 23, 26, 35, 42, 47, 51, 52, 58, 69, 71, 78, 78, 87, 87, 89, 92, 98]
+2023-09-17 15:14:25,223 Using the built-in function sorted(lst,reverse=True) gives: [98, 92, 89, 87, 87, 78, 78, 71, 69, 58, 52, 51, 47, 42, 35, 26, 23, 16, 10, 10]
+2023-09-17 15:14:25,223 new_lst is: [101, 99, 87, 71, 55, 40, 33, 30, 30, 11]
+2023-09-17 15:14:25,223 Popped the first (index=0): 101 and now, new_scores is: [99, 87, 71, 55, 40, 33, 30, 30, 11]
+2023-09-17 15:14:25,223 Popped the last (index=-1): 11 and now, new_scores is: [99, 87, 71, 55, 40, 33, 30, 30]
+2023-09-17 15:14:25,223 list1: {list1}
+2023-09-17 15:14:25,223 Even values: [<filter object at 0x000002B6E553EE60>]
+2023-09-17 15:14:25,223 Doubled scores: [<map object at 0x000002B6E553DA20>]
+2023-09-17 15:14:25,223 Cubed values: [<map object at 0x000002B6E553D990>]
+2023-09-17 15:14:25,223 list1: {list1}
+2023-09-17 15:14:25,224 Values under 3000 (using list comprehensions!): {values_under_3000}
+2023-09-17 15:14:25,224 values tripled: {triple_values}
+2023-09-17 15:14:25,224 square root of each values less than 2500: {doubled_scores}

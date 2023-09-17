@@ -1,11 +1,13 @@
 """
-Modify this docstring.
+Displaying different python functions and techniques for numerical lists.
+
+Name: Brendan Reed
+Field: Business/Finance
 
 """
 
-# import some standard modules first - how many can you make use of?
+# importing standard modules
 import math
-import random
 import statistics
 
 # TODO: import from local util_datafun_logger.py 
@@ -17,15 +19,16 @@ logger, logname = setup_logger(__file__)
 # TODO: Create some shared data lists if you like - or just create them in your functions
 list1 = [71, 10, 89, 92, 78, 16, 98, 87, 47, 26, 42, 58, 78, 51, 52, 10, 23, 69, 87, 35]
 
-# time range
+# time range (days)
+# (creates list of values 1 - 10)
 listx = list(range(1,11))
 
-# amount of stock traded
-listy = [1050, 1251, 5556, 4902, 5314, 3437, 3297, 5313, 3286, 5076]
+# amount of stock traded (amount of stock traded over time)
+listy = [1050, 1251, 3713, 4902, 4601, 5045, 6798, 6295, 7845, 7993]
 
 # TODO: define some custom functions
 
-# finding descriptive statistics for list1
+# descriptive statistics for list1
 def illustrate_list_statistics():
     """This function illustrates descriptive statistics for a numric list."""
 
@@ -49,17 +52,14 @@ def illustrate_list_statistics():
     logger.info(f"stdev: {stdev}")
     logger.info(f"variance: {variance}")
 
-# for listx and listy: calculating correlation and predicting future values with linear regression
+# listx and listy: finding correlation and predicting future values with linear regression
 def illustrate_list_correlation_and_prediction():
     """This function illustrates correlation and prediction for a numric list."""
 
     logger.info(f"listx: {listx}")
     logger.info(f"listy: {listy}")
 
-    # Descriptive: Measures of correlation
-    # Use two numerical lists of the same size
-    # Use statisttics module to get correlation between list1 and list2
-
+    #calculate correlation between listx and listy
     correlationxy = statistics.correlation(listx, listy)
     logger.info(f"correlation between x and y: {correlationxy}")
 
@@ -200,13 +200,6 @@ def illustrate_list_methods():
         f"Popped the last (index=-1): {last} and now, new_scores is: {new_lst}"
     )
 
-    # Remove the item at index 3 from the new list
-    fourth = new_lst.pop(3)
-    logger.info(
-        f"Popped the fourth (index=3): {fourth} and now, new_scores is: {new_lst}"
-    )
-
-
 def illustrate_list_transformations():
     """This function illustrates transformations that can be applied to a list"""
 
@@ -258,6 +251,7 @@ def illustrate_list_comprehensions():
     sqrt_less_than_1000 = [x * (1/2) for x in list1 if x < 2500]
     logger.info("square root of each values less than 2500: {doubled_scores}")
 
+# creates show_log() that will print the log to the console when called
 def show_log():
     """Read log file and print it to the terminal"""
     with open(logname, "r") as file_wrapper:
