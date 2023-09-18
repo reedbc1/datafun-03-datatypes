@@ -1,0 +1,25 @@
+2023-09-17 19:27:46,958 =============================================================
+2023-09-17 19:27:46,959 =============================================================
+2023-09-17 19:27:46,959 Today is 2023-09-17 at 07:27 PM
+2023-09-17 19:27:47,034 This file is running on: nt Windows 10
+2023-09-17 19:27:47,035 The Python version is: 3.11.2
+2023-09-17 19:27:47,035 The active conda environment is:  None
+2023-09-17 19:27:47,035 The active pip environment is:    None
+2023-09-17 19:27:47,035 The active environment path is:   C:\Python311
+2023-09-17 19:27:47,035 The current working directory is: C:\Users\reedb\Documents\NW University\datafun-03-datatypes
+2023-09-17 19:27:47,036 This source file is in:           c:\Users\reedb\Documents\NW University\datafun-03-datatypes
+2023-09-17 19:27:47,036 =============================================================
+2023-09-17 19:27:47,036 =============================================================
+2023-09-17 19:27:47,036 Calling functions from main block
+2023-09-17 19:27:47,036 Calling create_tuples()
+2023-09-17 19:27:47,036 stock_info = ('open', 'close', 'volume', '1y target est', 'PE ratio')
+2023-09-17 19:27:47,036 cash_flow = ('cash received', 'additional cash received', 'expenditures', 'additional cash spent', 'total cash spent')
+2023-09-17 19:27:47,036 employee_info = ('name', 'employee ID #', 'job title', 'salary', 'time at company')
+2023-09-17 19:27:47,036 Calling create_sets()
+2023-09-17 19:27:47,037 employee_names1 = {'Samantha', 'Jake', 'Sophia', 'Eric', 'Brendan', 'Marianne'}
+2023-09-17 19:27:47,037 employee_names2 = {'Samantha', 'David', 'Lisa', 'John'}
+2023-09-17 19:27:47,037 employee_intersection = {'Samantha'}
+2023-09-17 19:27:47,037 employee_union = {'Samantha', 'Jake', 'Sophia', 'David', 'John', 'Lisa', 'Eric', 'Brendan', 'Marianne'}
+2023-09-17 19:27:47,037 Calling create_dictionaries()
+2023-09-17 19:27:47,038 Given text_zen_of_python.txt and comprehensions,
+2023-09-17 19:27:47,038 the the word_counts_dict2 = {'Beautiful': 1, 'is': 10, 'better': 8, 'than': 8, 'ugly.': 1, 'Explicit': 1, 'implicit.': 1, 'Simple': 1, 'complex.': 1, 'Complex': 1, 'complicated.': 1, 'Flat': 1, 'nested.': 1, 'Sparse': 1, 'dense.': 1, 'Readability': 1, 'counts.': 1, 'Special': 1, 'cases': 1, "aren't": 1, 'special': 1, 'enough': 1, 'to': 5, 'break': 1, 'the': 5, 'rules.': 1, 'Although': 3, 'practicality': 1, 'beats': 1, 'purity.': 1, 'Errors': 1, 'should': 2, 'never': 2, 'pass': 1, 'silently.': 1, 'Unless': 1, 'explicitly': 1, 'silenced.': 1, 'In': 1, 'face': 1, 'of': 2, 'ambiguity,': 1, 'refuse': 1, 'temptation': 1, 'guess.': 1, 'There': 1, 'be': 3, 'one--': 1, 'and': 1, 'preferably': 1, 'only': 1, 'one': 2, '--obvious': 1, 'way': 2, 'do': 2, 'it.': 1, 'that': 1, 'may': 2, 'not': 1, 'obvious': 1, 'at': 1, 'first': 1, 'unless': 1, "you're": 1, 'Dutch.': 1, 'Now': 1, 'never.': 1, 'often': 1, '*right*': 1, 'now.': 1, 'If': 2, 'implementation': 2, 'hard': 1, 'explain,': 2, "it's": 1, 'a': 2, 'bad': 1, 'idea.': 2, 'easy': 1, 'it': 1, 'good': 1, 'Namespaces': 1, 'are': 1, 'honking': 1, 'great': 1, 'idea': 1, '--': 1, "let's": 1, 'more': 1, 'those!': 1}
