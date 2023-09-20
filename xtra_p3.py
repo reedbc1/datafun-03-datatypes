@@ -18,8 +18,7 @@ from util_datafun_logger import setup_logger
 
 # Call the setup_logger function to create a logger and get the log file name
 logger, logname = setup_logger(__file__)
-
-
+ 
 def compare_two_plays():
     ''' This function compares two plays by Shakespeare.'''
     logger.info("Calling compare_two_plays()")
@@ -41,12 +40,6 @@ def compare_two_plays():
 
     logger.info(f"List of words from play 2: {wordlist2}")
 
-
-    # Done with files - let the files close and the work begin
-
-    # Remove duplicates by creating two sorted sets
-    # hint: use sorted() to sort the list
-    # hint: use set() to remove duplicates
     # name them wordset1 and wordset2
     wordset1 = set(sorted(wordlist1))
     wordset2 = set(sorted(wordlist2))
@@ -90,9 +83,7 @@ def show_log():
     with open(logname, "r") as file_wrapper:
         print(file_wrapper.read())
 
-
-# -------------------------------------------------------------
-# Call some functions and execute code!
+# Calling functions
 
 if __name__ == "__main__":
     logger.info("Calling functions from main block")
